@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.2)
 
-set(This VersionTest)
+set(This version_test)
 
 set(Sources
-    VersionTest.cpp
+    version_test.cpp
 )
 
 add_executable(${This} ${Sources})

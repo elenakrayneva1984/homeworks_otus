@@ -4,7 +4,7 @@ set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(helloworld VERSION ${PROJECT_VESRION})
-#project(helloworld VERSION 0.0.$ENV{GITHUB_RUN_NUMBER})???
+
 configure_file(version.h.in version.h)
 
 add_executable(helloworld_cli main.cpp)
