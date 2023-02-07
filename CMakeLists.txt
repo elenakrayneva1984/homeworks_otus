@@ -56,10 +56,10 @@ set(CPACK_PACKAGE_CONTACT example@example.com)
 
 include(CPack)
 
+enable_testing()
 add_subdirectory(googletest)
 add_subdirectory(test)
-add_test(VersionTest VersionTest)
-enable_testing()
+
 
 
 
